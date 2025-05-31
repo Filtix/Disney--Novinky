@@ -1,0 +1,162 @@
+﻿/* CSS Document */
+body{
+	 background-image: url("disneyplus.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;  
+     min-height: 100vh; 
+}
+.nadpis1{
+	text-align: center;
+	color: white;
+	font-family: "Star Jedi", sans-serif;
+	font-size: 80px;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.nadpis2{
+	text-align: center;
+	color: white;
+	font-family: "Star Jedi", sans-serif;
+	font-size: 45px;
+	margin-top: 20px;
+}
+.obrazek1 {
+    width: 250px;
+    height: auto;
+    margin: 20px auto 20px 0; 
+    border-radius: 10px;
+    display: block;
+     
+} 
+.text1 {
+	font-family: "Star Jedi", sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 20px auto 20px 0; 
+    text-align: center;          
+    max-width: 250px; 
+	border: 12px;         
+	border-radius: 30px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+.obrazek2 {
+    width: 250px;
+    height: auto;
+    margin: 100px 20px 20px 0; 
+    border-radius: 10px;
+    display: block;
+
+     
+} 
+.postavy-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
+.postava {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu2 {
+	display: flex;
+	justify-content: center;
+	gap: 80px;
+	margin-top: 35px;
+	font-size: larger;
+}
+.odkaz li {
+    border: 2px solid #fff;
+    border-radius: 12px;
+   
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    transition: border-color 0.2s;
+}
+.odkaz li:hover {
+    border-color: #006eff;
+}
+.odkaz li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+	padding: 20px 35px;
+    align-items: center;
+    gap: 10px;
+}
+.odkaz li .icon {
+    width: 50px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+
+.menu2 {
+	display: flex;
+	justify-content: center;
+	gap: 80px;
+	margin-top: 35px;
+	font-size: larger;
+}
+.menu2 li {
+    border: 2px solid #fff;
+    border-radius: 12px;
+   
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    transition: border-color 0.2s;
+}
+.menu2 li:hover {
+    border-color: #006eff;
+}
+.menu2 li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+	padding: 20px 35px;
+    align-items: center;
+    gap: 10px;
+}
+.menu2 li .icon {
+    width: 50px;
+    height: 40px;
+    border-radius: 4px;
+}
+.strong1{
+	color:red;
+}
+.strong2{
+	color:blue;
+}
+.strong3{
+	color:green;
+}
+.strong4{
+	color:blue;
+}
+.strong5{
+	color:yellow;
+}
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-text {
+	text-align: center;
+	color: black;
+	font-family: "AvenirNext", sans-serif;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+

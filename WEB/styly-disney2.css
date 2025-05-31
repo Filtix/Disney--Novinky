@@ -1,0 +1,200 @@
+﻿/* CSS Document */
+body{
+	 background-image: url("disneyplus.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;  
+     min-height: 100vh; 
+}
+.nadpis{
+	text-align: center;
+	color: white;
+	font-family: "AvenirNext", sans-serif;
+	font-size: 80px;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.podnadpis{
+	text-align: center;
+	color: 	#00ffff;
+	font-family: "AvenirNext", sans-serif;
+	font-size: 45px;
+	margin-top: 20px;
+}
+.seznam {
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 30px;
+    color: #00ced1;
+    font-weight: bold;
+    font-family: "AvenirNext", sans-serif;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.seznam li{
+	margin-top: 50px;
+}
+	
+
+.obrazek {
+	width: 250px;
+	height: 200px;
+	margin-top: 20px;
+	border-radius: 10px;
+	display: flex;
+	margin-left: 0;
+	margin-right: auto;
+}
+.obrazek-odkaz {
+    display: flex;
+    align-items: center;
+    gap: 50px;  
+
+}
+
+.odkaz {
+    display: flex;
+    justify-content: center;
+    color: red;
+    gap: 80px;
+    margin-top: 35px;
+    font-size: larger;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px 35px;
+    align-items: center;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.odkaz:hover {
+    border-color: #ff0000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2);
+}
+
+.odkaz2 {
+    display: flex;
+    justify-content: center;
+    color: gold;
+    gap: 80px;
+    margin-top: 35px;
+    font-size: larger;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px 35px;
+    align-items: center;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.odkaz2:hover {
+    border-color: gold;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.2);
+}
+.obrazek:hover {
+	transition: transform 2s;
+	transform: scale(1.2);
+}
+.popis{
+	text-align: center;
+	color: white;
+	font-family: "AvenirNext", sans-serif;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 50%;
+	margin-left: 300px;
+	margin-right: auto;
+}
+.menu2 {
+	display: flex;
+	justify-content: center;
+	gap: 80px;
+	margin-top: 35px;
+	font-size: larger;
+}
+.menu2 li {
+    border: 2px solid #fff;
+    border-radius: 12px;
+   
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    transition: border-color 0.2s;
+}
+.menu2 li:hover {
+    border-color: #006eff;
+}
+.menu2 li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+	padding: 20px 35px;
+    align-items: center;
+    gap: 10px;
+}
+.menu2 li .icon {
+    width: 50px;
+    height: 40px;
+    border-radius: 4px;
+}
+.footer-text {
+	text-align: center;
+	color: black;
+	font-family: "AvenirNext", sans-serif;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nadpis {
+        font-size: 40px;
+    }
+    
+    .podnadpis {
+        font-size: 30px;
+    }
+    
+    .seznam {
+        width: 90%;
+        padding-right: 20px;
+    }
+    
+    .menu2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .obrazek-odkaz {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .popis {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+    }
+}
+
+/* Fix footer styling */
+footer {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 12px;
+}
+
+.footer-text {
+    color: #333;
+    margin: 10px 0;
+}

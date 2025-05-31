@@ -1,0 +1,152 @@
+﻿/* CSS Document */
+body{
+	 background-image: url("disneyplus.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;  
+     min-height: 100vh; 
+}
+.nadpis{
+
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 6em;
+	color: #ff0000;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.sekce1{
+    display: flex;
+	gap: 20px;
+	
+}
+
+
+.podnadpis{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 3em;
+	color: #ffffff;
+	text-align: center;
+	margin-top: -10px;
+}
+.obrazek1{
+	width: 250px;
+	height: auto;
+	display: left;
+	margin: 20px;
+	border-radius: 10px;
+	
+
+}
+.text1{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 1.5em;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	border-radius: 30px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	order: 2px solid #fff;   
+      
+  
+}
+.obrazek2{
+	width: 250px;
+	height: auto;
+	display: right;
+	margin: 0;
+	border-radius: 10px;
+}
+.sekce2 {
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center;
+    gap: 20px;
+}
+.text2{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 1.5em;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 30px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.menu {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin-top: 20px;
+	
+}
+.menu li {
+    border: 2px solid #fff;
+    border-radius: 12px;
+   
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    transition: border-color 0.2s;
+}
+
+.menu li:hover {
+    border-color: #ff0000;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+	padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu li .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+}
+.menu2 {
+	display: flex;
+	justify-content: center;
+	gap: 80px;
+	margin-top: 35px;
+	font-size: larger;
+}
+.menu2 li {
+    border: 2px solid #fff;
+    border-radius: 12px;
+   
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    transition: border-color 0.2s;
+}
+.menu2 li:hover {
+    border-color: #006eff;
+}
+.menu2 li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+	padding: 20px 35px;
+    align-items: center;
+    gap: 10px;
+}
+.menu2 li .icon {
+    width: 50px;
+    height: 40px;
+    border-radius: 4px;
+}
+.footer-text {
+	text-align: center;
+	color: black;
+	font-family: "AvenirNext", sans-serif;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
